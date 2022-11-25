@@ -1,0 +1,8 @@
+name: Webform Migrate Plus
+type: module
+description: Extends functionality in webform_migrate for d7 -&gt; d9 migrations
+package: webform
+core_version_requirement: ^9 || ^10
+dependencies:
+  - webform_migrate
+  - migrate_plus
