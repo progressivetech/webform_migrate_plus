@@ -245,8 +245,9 @@ class WebformMigratePlusSubscriber implements EventSubscriberInterface {
    * @returns array Unserialized data from d7 database.
    */
   public static function getWebformComponentExtraData(int $nid, string $form_key, bool $recurse = TRUE){
-    $row = WebformMigratePlusSubscriber::getWebformComponentData($nid, $form_key, $recurse);
-    return unserialize($row->extra);
+    $row = (array) WebformMigratePlusSubscriber::getWebformComponentData($nid, $form_key, $recurse);
+    $extra = $row['extra'] ?? '';
+    return unserialize($extra);
   }
 
 }
