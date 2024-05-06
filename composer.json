@@ -1,8 +1,8 @@
 {
-    "name": "fuzionnz/webform_migrate_plus",
+    "name": "progressivetech/webform_migrate_plus",
     "type": "drupal-module",
     "description": "Fixes for webforms migrations",
-    "homepage": "https://github.com/fuzionnz/webform_migrate_plus",
+    "homepage": "https://github.com/progressivetech/webform_migrate_plus",
     "license": "GPL-2.0-or-later",
     "require": {
         "drupal/webform_civicrm": "^6.1",
