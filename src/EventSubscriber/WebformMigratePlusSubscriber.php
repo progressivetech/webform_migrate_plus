@@ -168,7 +168,7 @@ class WebformMigratePlusSubscriber implements EventSubscriberInterface {
       '#title' => '#admin_title',
     ];
     foreach($mapping as $from => $to) {
-      $element[$to] = $element[$from];
+      $element[$to] = $element[$from] ?? '';
       unset($element[$from]);
     }
     return $element;
