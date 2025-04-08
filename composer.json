@@ -6,8 +6,8 @@
     "license": "GPL-2.0-or-later",
     "require": {
         "drupal/webform_civicrm": "^6.2",
-	"drupal/webform_migrate": "^2.0@alpha",
-	"drupal/migrate_plus": "^6.0"
+	      "progressivetech/webform_migrate": "^2.0@alpha",
+	      "drupal/migrate_plus": "^6.0"
     },
     "minimum-stability": "dev"
 }
